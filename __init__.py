@@ -19,21 +19,21 @@ class ActorGroup(ActorBase):
 	def init(self):
 		self.actors = []
 
-		if isinstance(self.actor01, unicode) and self.actor01:
+		if isinstance(self.actor01, str) and self.actor01:
 			self.actors.append(int(self.actor01))
-		if isinstance(self.actor02, unicode) and self.actor02:
+		if isinstance(self.actor02, str) and self.actor02:
 			self.actors.append(int(self.actor02))			
-		if isinstance(self.actor03, unicode) and self.actor03:
+		if isinstance(self.actor03, str) and self.actor03:
 			self.actors.append(int(self.actor03))
-		if isinstance(self.actor04, unicode) and self.actor04:
+		if isinstance(self.actor04, str) and self.actor04:
 			self.actors.append(int(self.actor04))
-		if isinstance(self.actor05, unicode) and self.actor05:
+		if isinstance(self.actor05, str) and self.actor05:
 			self.actors.append(int(self.actor05))			
-		if isinstance(self.actor06, unicode) and self.actor06:
+		if isinstance(self.actor06, str) and self.actor06:
 			self.actors.append(int(self.actor06))
-		if isinstance(self.actor07, unicode) and self.actor07:
+		if isinstance(self.actor07, str) and self.actor07:
 			self.actors.append(int(self.actor07))
-		if isinstance(self.actor08, unicode) and self.actor08:
+		if isinstance(self.actor08, str) and self.actor08:
 			self.actors.append(int(self.actor08))
 			
 	def set_power(self, power):
@@ -64,21 +64,21 @@ class SensorGroup(SensorPassive):
 	def init(self):
 		self.sensors = []
 
-		if isinstance(self.sensor01, unicode) and self.sensor01:
+		if isinstance(self.sensor01, str) and self.sensor01:
 			self.sensors.append(int(self.sensor01))
-		if isinstance(self.sensor02, unicode) and self.sensor02:
+		if isinstance(self.sensor02, str) and self.sensor02:
 			self.sensors.append(int(self.sensor02))			
-		if isinstance(self.sensor03, unicode) and self.sensor03:
+		if isinstance(self.sensor03, str) and self.sensor03:
 			self.sensors.append(int(self.sensor03))
-		if isinstance(self.sensor04, unicode) and self.sensor04:
+		if isinstance(self.sensor04, str) and self.sensor04:
 			self.sensors.append(int(self.sensor04))
-		if isinstance(self.sensor05, unicode) and self.sensor05:
+		if isinstance(self.sensor05, str) and self.sensor05:
 			self.sensors.append(int(self.sensor05))			
-		if isinstance(self.sensor06, unicode) and self.sensor06:
+		if isinstance(self.sensor06, str) and self.sensor06:
 			self.sensors.append(int(self.sensor06))
-		if isinstance(self.sensor07, unicode) and self.sensor07:
+		if isinstance(self.sensor07, str) and self.sensor07:
 			self.sensors.append(int(self.sensor07))
-		if isinstance(self.sensor08, unicode) and self.sensor08:
+		if isinstance(self.sensor08, str) and self.sensor08:
 			self.sensors.append(int(self.sensor08))
 			
 	def stop(self):
